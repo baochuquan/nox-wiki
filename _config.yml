@@ -61,7 +61,6 @@ search:
   # Supports true or false (default)
   button: false
 
-color_scheme: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
