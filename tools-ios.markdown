@@ -23,3 +23,7 @@ Option:
     --debug|-x:                                         -- 调试模式
     --file|-f:                                          -- 待转换的文件名，不带文件格式后缀
 ```
+
+如下所示：
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-ios-o2s-mtl.gif)

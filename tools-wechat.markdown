@@ -25,3 +25,7 @@ Option:
     --message|-m:                                       -- 指定消息内容
     --users|-u:                                         -- 指定 ldap 用户
 ```
+
+如下所示：
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-wechat-serve-notify.gif)

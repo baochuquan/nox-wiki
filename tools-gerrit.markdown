@@ -46,3 +46,6 @@ Option:
     --solar-ios-reviewers|-s:                           -- 指定小猿搜题 iOS 用户组为 reviewer
 ```
 
+如下所示：
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-gerrit-submit.gif)

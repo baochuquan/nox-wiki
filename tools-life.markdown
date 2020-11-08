@@ -22,3 +22,7 @@ Option:
     --help|-h:                                          -- 使用帮助
     --debug|-x:                                         -- 调试模式
 ```
+
+如下所示：
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-life-lunch.gif)

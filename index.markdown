@@ -10,8 +10,8 @@ nav_order: 1
 
 ![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox.png)
 
-[View NOX on Gerrit](https://gerrit.zhenguanyu.com/plugins/gitiles/nox/){: .btn .btn-purple }
-[Request to add feature](https://confluence.zhenguanyu.com/display/~baocq/NOX){: .btn .btn-blue }
+[View NOX on Gerrit](https://gerrit.zhenguanyu.com/plugins/gitiles/nox/){: .btn .btn-purple .mr-4}
+[Request to add feature](https://confluence.zhenguanyu.com/display/~baocq/NOX){: .btn .btn-blue .mr-4}
 
 ---
 
@@ -60,6 +60,10 @@ $ ./install.sh
 $ source ~/.zshrc
 ```
 
+执行结果如下：
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-install.gif)
+
 安装完毕之后，就可以体验 NOX 中的功能了。请见工具索引。
 
 ### Update
@@ -76,6 +80,10 @@ $ nox system update
 $ cd nox
 $ ./uninstall.sh
 ```
+
+执行结果如下：
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-uninstall.gif)
 
 ---
 

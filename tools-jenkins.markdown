@@ -90,6 +90,11 @@ Option:
 
 ```
 
+
+如下所示：
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-jenkins-solar-ios.gif)
+
 ---
 
 ## venus-ios

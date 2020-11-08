@@ -61,6 +61,16 @@ Option:
     --reporter|-R:                                      -- 指定报告用户
 ```
 
+如下所示，为查看 baocq 的所有未修复的 bug。
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-jira-query-01.gif)
+
+如下所示，为查看 jiaolf 的所有正在进行中的测试申请。
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-jira-query-02.gif)
+
+
+
 ---
 
 ## test
@@ -79,3 +89,7 @@ Option:
     --request|-r:                                       -- 提测申请，如：SOLAR-12345
 
 ```
+
+如下所示：
+
+![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox-jira-test.gif)
