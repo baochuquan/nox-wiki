@@ -10,6 +10,9 @@ nav_order: 1
 
 ![](https://chuquan-public-r-001.oss-cn-shanghai.aliyuncs.com/nox/nox.png)
 
+[View NOX on Gerrit](https://gerrit.zhenguanyu.com/plugins/gitiles/nox/){: .btn .btn-purple }
+[Request to add feature](https://confluence.zhenguanyu.com/display/~baocq/NOX){: .btn .btn-blue }
+
 ---
 
 你是否还在为执行 shell 脚本时，一层一层的查找脚本路径而感到烦恼？
@@ -77,14 +80,14 @@ $ ./uninstall.sh
 ---
 
 ## Contribution
-在为项目作出贡献时，请在 code reviewer 中添加 @baocq。
+在为项目作出贡献时，请在 code reviewer 中添加 [@baocq](https://gerrit.zhenguanyu.com/q/owner:baocq%2540fenbi.com)。
 
 如果有任何已经或建议，请在 [NOX](https://confluence.zhenguanyu.com/display/~baocq/NOX) 下进行评论。
 
 ---
 
 ## Contact
-如果你在使用 NOX 中遇到了任何问题，可以通过企业微信或工作邮件等方式找 @baocq 来帮助你解决问题。
+如果你在使用 NOX 中遇到了任何问题，可以通过企业微信或工作邮件等方式找 [@baocq](https://gerrit.zhenguanyu.com/q/owner:baocq%2540fenbi.com) 来帮助你解决问题。
 
 ---
 
