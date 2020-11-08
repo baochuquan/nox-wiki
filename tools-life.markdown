@@ -6,18 +6,17 @@ nav_order: 5
 has_children: false
 ---
 
-拉伸的看法；爱上快递费
-阿克苏打飞机拉伸开江东父老；卡视角的
+## lunch
+`nox life lunch`
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+```shell
+Usage:
+    lunch
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Description:
+    午饭吃什么？在 config.yaml 中的 restaurants 餐厅列表中随机选择一个餐厅
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Option:
+    --help|-h:                                          -- 使用帮助
+    --debug|-x:                                         -- 调试模式
+```

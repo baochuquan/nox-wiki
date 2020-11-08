@@ -6,18 +6,43 @@ nav_order: 1
 has_children: false
 ---
 
-拉伸的看法；爱上快递费
-阿克苏打飞机拉伸开江东父老；卡视角的
+---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## init
+`nox gerrit init` 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+```shell
+Usage:
+    init
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Description:
+    用于在工程中自动生成 changeId、移除代码连续空行、移除多余的后缀空格
 
+Option:
+    --help|-h:                                          -- 使用帮助
+    --debug|-x:                                         -- 调试模式
+```
 
-[jekyll-organization]: https://github.com/jekyll
+---
+
+## submit
+`nox gerrit submit`
+
+```shell
+Usage:
+    submit                                              -- 静默提交，reviewer 是自己
+    submit --notify                                     -- 企业微信通知 reviewer
+    submit --reviewers user1[,user2,...] [--notify]     -- 提交并通知自己
+    submit --solar-ios-reviewers [--notify]             -- 提交并通知小猿搜题 iOS 用户组
+
+Description:
+    在 git 仓库中向 Gerrit 提交 code review
+
+Option:
+    --help|-h:                                          -- 使用帮助
+    --debug|-x:                                         -- 调试模式
+    --notify|-n:                                        -- 是否向 reviewer 发送企业微信通知
+    --reviewers|-r:                                     -- 指定 ldap 用户为 reviewer，user1(,user2,...)
+    --solar-ios-reviewers|-s:                           -- 指定小猿搜题 iOS 用户组为 reviewer
+```
+

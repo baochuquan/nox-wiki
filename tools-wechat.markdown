@@ -6,18 +6,20 @@ nav_order: 8
 has_children: false
 ---
 
-拉伸的看法；爱上快递费
-阿克苏打飞机拉伸开江东父老；卡视角的
+## serve-notify
+`nox wechat serve-notify`
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+```shell
+Usage:
+    serve-notify --message message --users user1,user2 ...
+    serve-notify -m message -u user1,user2,...
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Description:
+    通过服务通知向指定 ldap 的用户发送企业微信
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Option:
+    --help|-h:                                          -- 使用帮助
+    --debug|-x:                                         -- 调试模式
+    --message|-m:                                       -- 指定消息内容
+    --users|-u:                                         -- 指定 ldap 用户
+```

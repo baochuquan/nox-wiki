@@ -6,18 +6,53 @@ nav_order: 7
 has_children: false
 ---
 
-拉伸的看法；爱上快递费
-阿克苏打飞机拉伸开江东父老；卡视角的
+## build
+`nox system build`
+```shell
+Usage:
+    build
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Description:
+    用于生成自动补全脚本
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Option:
+    --help|-h:                                          -- 使用帮助
+    --debug|-x:                                         -- 调试模式
+    --slient|-s:                                        -- 编译后不打印 Logo
+```
+---
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## create
+`nox system create`
+```shell
+Usage:
+    create --dir <dirname>
+    create --script <scriptname>
 
+Description:
+    用于 nox 脚本开发，创建一个子目录或脚本
 
-[jekyll-organization]: https://github.com/jekyll
+Option:
+    --help|-h:                                          -- 使用帮助
+    --debug|-x:                                         -- 调试模式
+    --dir|-d:                                           -- 创建目录
+    --script|-s:                                        -- 创建脚本
+
+```
+---
+
+## update
+`nox system update`
+
+```shell
+Usage:
+    update
+
+Description:
+    更新 nox 最新功能
+
+Option:
+    --help|-h:                                          -- 使用帮助
+    --debug|-x:                                         -- 调试模式
+
+```

@@ -6,20 +6,18 @@ nav_order: 2
 has_children: false
 ---
 
-iOS 
+## o2s-mtl
+`nox ios o2s-mtl`
 
-拉伸的看法；爱上快递费
-阿克苏打飞机拉伸开江东父老；卡视角的
+```shell
+Usage:
+    o2s-mtl --file <filename-with-out-suffix>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Description:
+    将继承自 MTLModel 的 OC 类转换成 Swift 类
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Option:
+    --help|-h:                                          -- 使用帮助
+    --debug|-x:                                         -- 调试模式
+    --file|-f:                                          -- 待转换的文件名，不带文件格式后缀
+```
