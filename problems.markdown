@@ -5,6 +5,9 @@ permalink: /problems/
 nav_order: 6
 ---
 
+*  目录
+{:toc}
+
 ## 环境变量类型报错
 在安装或更新 NOX 之后，必须要执行 `source ~/.zshrc` 才能使 NOX 相关环境变量生效。
 
